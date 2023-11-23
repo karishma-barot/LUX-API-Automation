@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-LUX_APIs" class="navigator-link">
+              <span class="suite-name border-failed">LUX APIs</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-LUX_APIs" class="navigator-link ">
+                    <span>testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-LUX_APIs" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-LUX_APIs" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-LUX_APIs" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-LUX_APIs" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-LUX_APIs" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-LUX_APIs" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">55 methods, 1 failed,  3 skipped,  51 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-LUX_APIs" class="hide-methods failed suite-LUX_APIs"> (hide)</a> <!-- hide-methods failed suite-LUX_APIs -->
+                      <a href="#" panel-name="suite-LUX_APIs" class="show-methods failed suite-LUX_APIs"> (show)</a> <!-- show-methods failed suite-LUX_APIs -->
+                    </span>
+                    <div class="method-list-content failed suite-LUX_APIs">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.EventTestCases" class="method navigator-link" hash-for-method="testListEvents">testListEvents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-LUX_APIs -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-LUX_APIs" class="hide-methods skipped suite-LUX_APIs"> (hide)</a> <!-- hide-methods skipped suite-LUX_APIs -->
+                      <a href="#" panel-name="suite-LUX_APIs" class="show-methods skipped suite-LUX_APIs"> (show)</a> <!-- show-methods skipped suite-LUX_APIs -->
+                    </span>
+                    <div class="method-list-content skipped suite-LUX_APIs">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.EventTestCases" class="method navigator-link" hash-for-method="testListEvents">testListEvents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.EventTestCases" class="method navigator-link" hash-for-method="testListEvents">testListEvents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.EventTestCases" class="method navigator-link" hash-for-method="testListEvents">testListEvents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-LUX_APIs -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LUX_APIs" class="hide-methods passed suite-LUX_APIs"> (hide)</a> <!-- hide-methods passed suite-LUX_APIs -->
+                      <a href="#" panel-name="suite-LUX_APIs" class="show-methods passed suite-LUX_APIs"> (show)</a> <!-- show-methods passed suite-LUX_APIs -->
+                    </span>
+                    <div class="method-list-content passed suite-LUX_APIs">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.TokenGenerator" class="method navigator-link" hash-for-method="getToken">getToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CategoryTestCases" class="method navigator-link" hash-for-method="testCreateCategory">testCreateCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.DealTestCases" class="method navigator-link" hash-for-method="testCreateDeal">testCreateDeal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.EventTestCases" class="method navigator-link" hash-for-method="testCreateEvent">testCreateEvent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.NoticeTestCases" class="method navigator-link" hash-for-method="testCreateNotice">testCreateNotice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.ParticipantTestCases" class="method navigator-link" hash-for-method="testCreateParticipant">testCreateParticipant</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.RetailerTestCases" class="method navigator-link" hash-for-method="testCreateRetailer">testCreateRetailer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.ScheduleTestCases" class="method navigator-link" hash-for-method="testCreateSchedule">testCreateSchedule</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CentreDirectoryServiceTestCases" class="method navigator-link" hash-for-method="testCreateService">testCreateService</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CentreDirectoryServiceTypeTestCases" class="method navigator-link" hash-for-method="testCreateServiceType">testCreateServiceType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.StoreTestCases" class="method navigator-link" hash-for-method="testCreateStore">testCreateStore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.DealTestCases" class="method navigator-link" hash-for-method="testDeleteDeal">testDeleteDeal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.EventTestCases" class="method navigator-link" hash-for-method="testDeleteEvent">testDeleteEvent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.NoticeTestCases" class="method navigator-link" hash-for-method="testDeleteNotice">testDeleteNotice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.ParticipantTestCases" class="method navigator-link" hash-for-method="testDeleteParticipant">testDeleteParticipant</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.ScheduleTestCases" class="method navigator-link" hash-for-method="testDeleteSchedule">testDeleteSchedule</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CentreDirectoryServiceTestCases" class="method navigator-link" hash-for-method="testDeleteService">testDeleteService</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CentreDirectoryServiceTypeTestCases" class="method navigator-link" hash-for-method="testDeleteServiceType">testDeleteServiceType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CategoryTestCases" class="method navigator-link" hash-for-method="testDeletecategory">testDeletecategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CategoryTestCases" class="method navigator-link" hash-for-method="testGetCategory">testGetCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CentreTestCases" class="method navigator-link" hash-for-method="testGetCentre">testGetCentre</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.DealTestCases" class="method navigator-link" hash-for-method="testGetDeal">testGetDeal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.EventTestCases" class="method navigator-link" hash-for-method="testGetEvent">testGetEvent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.NoticeTestCases" class="method navigator-link" hash-for-method="testGetNotice">testGetNotice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.ParticipantTestCases" class="method navigator-link" hash-for-method="testGetParticipant">testGetParticipant</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.RetailerTestCases" class="method navigator-link" hash-for-method="testGetRetailer">testGetRetailer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.ScheduleTestCases" class="method navigator-link" hash-for-method="testGetSchedule">testGetSchedule</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CentreDirectoryServiceTestCases" class="method navigator-link" hash-for-method="testGetService">testGetService</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CentreDirectoryServiceTypeTestCases" class="method navigator-link" hash-for-method="testGetServiceType">testGetServiceType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.StoreTestCases" class="method navigator-link" hash-for-method="testGetStore">testGetStore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CategoryTestCases" class="method navigator-link" hash-for-method="testListCategories">testListCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CentreTestCases" class="method navigator-link" hash-for-method="testListCentres">testListCentres</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.DealTestCases" class="method navigator-link" hash-for-method="testListDeals">testListDeals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.NoticeTestCases" class="method navigator-link" hash-for-method="testListNotices">testListNotices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.ParticipantTestCases" class="method navigator-link" hash-for-method="testListParticipants">testListParticipants</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.RetailerTestCases" class="method navigator-link" hash-for-method="testListRetailers">testListRetailers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.ScheduleTestCases" class="method navigator-link" hash-for-method="testListSchedules">testListSchedules</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CentreDirectoryServiceTestCases" class="method navigator-link" hash-for-method="testListServices">testListServices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CentreDirectoryServiceTypeTestCases" class="method navigator-link" hash-for-method="testListServicesTypes">testListServicesTypes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.StoreTestCases" class="method navigator-link" hash-for-method="testListStores">testListStores</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CategoryTestCases" class="method navigator-link" hash-for-method="testPatchCategory">testPatchCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CentreTestCases" class="method navigator-link" hash-for-method="testPatchCentre">testPatchCentre</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CentreTestCases" class="method navigator-link" hash-for-method="testPostCentre">testPostCentre</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.DealTestCases" class="method navigator-link" hash-for-method="testUpdateDeal">testUpdateDeal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.EventTestCases" class="method navigator-link" hash-for-method="testUpdateEvent">testUpdateEvent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.NoticeTestCases" class="method navigator-link" hash-for-method="testUpdateNotice">testUpdateNotice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.RetailerTestCases" class="method navigator-link" hash-for-method="testUpdateRetailer">testUpdateRetailer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.ScheduleTestCases" class="method navigator-link" hash-for-method="testUpdateSchedule">testUpdateSchedule</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CentreDirectoryServiceTestCases" class="method navigator-link" hash-for-method="testUpdateService">testUpdateService</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.CentreDirectoryServiceTypeTestCases" class="method navigator-link" hash-for-method="testUpdateServiceType">testUpdateServiceType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LUX_APIs" title="test.StoreTestCases" class="method navigator-link" hash-for-method="testUpdateStore">testUpdateStore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LUX_APIs -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LUX_APIs" class="panel LUX_APIs">
+          <div class="suite-LUX_APIs-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.EventTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListEvents">
+                  </a> <!-- testListEvents -->
+                  <span class="method-name">testListEvents</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.containsKey(Object)&quot; because the return value of &quot;io.restassured.path.json.JsonPath.getMap(String)&quot; is null
+	at test.EventTestCases.testListEvents(EventTestCases.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LUX_APIs-class-failed -->
+          <div class="suite-LUX_APIs-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.EventTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListEvents">
+                  </a> <!-- testListEvents -->
+                  <span class="method-name">testListEvents</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.containsKey(Object)&quot; because the return value of &quot;io.restassured.path.json.JsonPath.getMap(String)&quot; is null
+	at test.EventTestCases.testListEvents(EventTestCases.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListEvents">
+                  </a> <!-- testListEvents -->
+                  <span class="method-name">testListEvents</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.containsKey(Object)&quot; because the return value of &quot;io.restassured.path.json.JsonPath.getMap(String)&quot; is null
+	at test.EventTestCases.testListEvents(EventTestCases.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListEvents">
+                  </a> <!-- testListEvents -->
+                  <span class="method-name">testListEvents</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.Map.containsKey(Object)&quot; because the return value of &quot;io.restassured.path.json.JsonPath.getMap(String)&quot; is null
+	at test.EventTestCases.testListEvents(EventTestCases.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LUX_APIs-class-skipped -->
+          <div class="suite-LUX_APIs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.ScheduleTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateSchedule">
+                  </a> <!-- testCreateSchedule -->
+                  <span class="method-name">testCreateSchedule</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteSchedule">
+                  </a> <!-- testDeleteSchedule -->
+                  <span class="method-name">testDeleteSchedule</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSchedule">
+                  </a> <!-- testGetSchedule -->
+                  <span class="method-name">testGetSchedule</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListSchedules">
+                  </a> <!-- testListSchedules -->
+                  <span class="method-name">testListSchedules</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateSchedule">
+                  </a> <!-- testUpdateSchedule -->
+                  <span class="method-name">testUpdateSchedule</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LUX_APIs-class-passed -->
+          <div class="suite-LUX_APIs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.ParticipantTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateParticipant">
+                  </a> <!-- testCreateParticipant -->
+                  <span class="method-name">testCreateParticipant</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteParticipant">
+                  </a> <!-- testDeleteParticipant -->
+                  <span class="method-name">testDeleteParticipant</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetParticipant">
+                  </a> <!-- testGetParticipant -->
+                  <span class="method-name">testGetParticipant</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListParticipants">
+                  </a> <!-- testListParticipants -->
+                  <span class="method-name">testListParticipants</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LUX_APIs-class-passed -->
+          <div class="suite-LUX_APIs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.CentreTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCentre">
+                  </a> <!-- testGetCentre -->
+                  <span class="method-name">testGetCentre</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListCentres">
+                  </a> <!-- testListCentres -->
+                  <span class="method-name">testListCentres</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPatchCentre">
+                  </a> <!-- testPatchCentre -->
+                  <span class="method-name">testPatchCentre</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostCentre">
+                  </a> <!-- testPostCentre -->
+                  <span class="method-name">testPostCentre</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LUX_APIs-class-passed -->
+          <div class="suite-LUX_APIs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.CategoryTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateCategory">
+                  </a> <!-- testCreateCategory -->
+                  <span class="method-name">testCreateCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeletecategory">
+                  </a> <!-- testDeletecategory -->
+                  <span class="method-name">testDeletecategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCategory">
+                  </a> <!-- testGetCategory -->
+                  <span class="method-name">testGetCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListCategories">
+                  </a> <!-- testListCategories -->
+                  <span class="method-name">testListCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPatchCategory">
+                  </a> <!-- testPatchCategory -->
+                  <span class="method-name">testPatchCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LUX_APIs-class-passed -->
+          <div class="suite-LUX_APIs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.RetailerTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateRetailer">
+                  </a> <!-- testCreateRetailer -->
+                  <span class="method-name">testCreateRetailer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRetailer">
+                  </a> <!-- testGetRetailer -->
+                  <span class="method-name">testGetRetailer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListRetailers">
+                  </a> <!-- testListRetailers -->
+                  <span class="method-name">testListRetailers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateRetailer">
+                  </a> <!-- testUpdateRetailer -->
+                  <span class="method-name">testUpdateRetailer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LUX_APIs-class-passed -->
+          <div class="suite-LUX_APIs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.EventTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateEvent">
+                  </a> <!-- testCreateEvent -->
+                  <span class="method-name">testCreateEvent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteEvent">
+                  </a> <!-- testDeleteEvent -->
+                  <span class="method-name">testDeleteEvent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetEvent">
+                  </a> <!-- testGetEvent -->
+                  <span class="method-name">testGetEvent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateEvent">
+                  </a> <!-- testUpdateEvent -->
+                  <span class="method-name">testUpdateEvent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LUX_APIs-class-passed -->
+          <div class="suite-LUX_APIs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.StoreTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateStore">
+                  </a> <!-- testCreateStore -->
+                  <span class="method-name">testCreateStore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetStore">
+                  </a> <!-- testGetStore -->
+                  <span class="method-name">testGetStore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListStores">
+                  </a> <!-- testListStores -->
+                  <span class="method-name">testListStores</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateStore">
+                  </a> <!-- testUpdateStore -->
+                  <span class="method-name">testUpdateStore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LUX_APIs-class-passed -->
+          <div class="suite-LUX_APIs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.DealTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateDeal">
+                  </a> <!-- testCreateDeal -->
+                  <span class="method-name">testCreateDeal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteDeal">
+                  </a> <!-- testDeleteDeal -->
+                  <span class="method-name">testDeleteDeal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDeal">
+                  </a> <!-- testGetDeal -->
+                  <span class="method-name">testGetDeal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListDeals">
+                  </a> <!-- testListDeals -->
+                  <span class="method-name">testListDeals</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateDeal">
+                  </a> <!-- testUpdateDeal -->
+                  <span class="method-name">testUpdateDeal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LUX_APIs-class-passed -->
+          <div class="suite-LUX_APIs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.CentreDirectoryServiceTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateService">
+                  </a> <!-- testCreateService -->
+                  <span class="method-name">testCreateService</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteService">
+                  </a> <!-- testDeleteService -->
+                  <span class="method-name">testDeleteService</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetService">
+                  </a> <!-- testGetService -->
+                  <span class="method-name">testGetService</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListServices">
+                  </a> <!-- testListServices -->
+                  <span class="method-name">testListServices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateService">
+                  </a> <!-- testUpdateService -->
+                  <span class="method-name">testUpdateService</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LUX_APIs-class-passed -->
+          <div class="suite-LUX_APIs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TokenGenerator</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getToken">
+                  </a> <!-- getToken -->
+                  <span class="method-name">getToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LUX_APIs-class-passed -->
+          <div class="suite-LUX_APIs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.NoticeTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateNotice">
+                  </a> <!-- testCreateNotice -->
+                  <span class="method-name">testCreateNotice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteNotice">
+                  </a> <!-- testDeleteNotice -->
+                  <span class="method-name">testDeleteNotice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNotice">
+                  </a> <!-- testGetNotice -->
+                  <span class="method-name">testGetNotice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListNotices">
+                  </a> <!-- testListNotices -->
+                  <span class="method-name">testListNotices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateNotice">
+                  </a> <!-- testUpdateNotice -->
+                  <span class="method-name">testUpdateNotice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LUX_APIs-class-passed -->
+          <div class="suite-LUX_APIs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.CentreDirectoryServiceTypeTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateServiceType">
+                  </a> <!-- testCreateServiceType -->
+                  <span class="method-name">testCreateServiceType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteServiceType">
+                  </a> <!-- testDeleteServiceType -->
+                  <span class="method-name">testDeleteServiceType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetServiceType">
+                  </a> <!-- testGetServiceType -->
+                  <span class="method-name">testGetServiceType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListServicesTypes">
+                  </a> <!-- testListServicesTypes -->
+                  <span class="method-name">testListServicesTypes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateServiceType">
+                  </a> <!-- testUpdateServiceType -->
+                  <span class="method-name">testUpdateServiceType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LUX_APIs-class-passed -->
+        </div> <!-- panel LUX_APIs -->
+        <div panel-name="test-xml-LUX_APIs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/karishmabarot/IdeaProjects/LUXAPI/testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;LUX APIs&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TokenGenerator&quot;/&gt;
+      &lt;class name=&quot;test.CentreTestCases&quot;/&gt;
+      &lt;class name=&quot;test.CategoryTestCases&quot;/&gt;
+      &lt;class name=&quot;test.RetailerTestCases&quot;/&gt;
+      &lt;class name=&quot;test.StoreTestCases&quot;/&gt;
+      &lt;class name=&quot;test.NoticeTestCases&quot;/&gt;
+      &lt;class name=&quot;test.CentreDirectoryServiceTestCases&quot;/&gt;
+      &lt;class name=&quot;test.CentreDirectoryServiceTypeTestCases&quot;/&gt;
+      &lt;class name=&quot;test.DealTestCases&quot;/&gt;
+      &lt;class name=&quot;test.ScheduleTestCases&quot;/&gt;
+      &lt;class name=&quot;test.ParticipantTestCases&quot;/&gt;
+      &lt;class name=&quot;test.EventTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression --&gt;
+&lt;/suite&gt; &lt;!-- LUX APIs --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LUX_APIs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LUX APIs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression (12 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LUX_APIs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LUX APIs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LUX_APIs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LUX APIs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LUX_APIs');
+function tableData_LUX_APIs() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(55);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getToken')
+data.setCell(0, 2, 'test.TokenGenerator')
+data.setCell(0, 3, 3577);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testListSchedules')
+data.setCell(1, 2, 'test.ScheduleTestCases')
+data.setCell(1, 3, 3303);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testListParticipants')
+data.setCell(2, 2, 'test.ParticipantTestCases')
+data.setCell(2, 3, 3226);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testPostCentre')
+data.setCell(3, 2, 'test.CentreTestCases')
+data.setCell(3, 3, 1857);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testListDeals')
+data.setCell(4, 2, 'test.DealTestCases')
+data.setCell(4, 3, 1464);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testGetCentre')
+data.setCell(5, 2, 'test.CentreTestCases')
+data.setCell(5, 3, 1242);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testListCentres')
+data.setCell(6, 2, 'test.CentreTestCases')
+data.setCell(6, 3, 1182);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testUpdateStore')
+data.setCell(7, 2, 'test.StoreTestCases')
+data.setCell(7, 3, 1160);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testGetRetailer')
+data.setCell(8, 2, 'test.RetailerTestCases')
+data.setCell(8, 3, 1047);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testListStores')
+data.setCell(9, 2, 'test.StoreTestCases')
+data.setCell(9, 3, 1037);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testListServices')
+data.setCell(10, 2, 'test.CentreDirectoryServiceTestCases')
+data.setCell(10, 3, 1010);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCreateNotice')
+data.setCell(11, 2, 'test.NoticeTestCases')
+data.setCell(11, 3, 1005);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testPatchCentre')
+data.setCell(12, 2, 'test.CentreTestCases')
+data.setCell(12, 3, 973);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testDeleteParticipant')
+data.setCell(13, 2, 'test.ParticipantTestCases')
+data.setCell(13, 3, 922);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCreateDeal')
+data.setCell(14, 2, 'test.DealTestCases')
+data.setCell(14, 3, 895);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCreateRetailer')
+data.setCell(15, 2, 'test.RetailerTestCases')
+data.setCell(15, 3, 881);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testUpdateRetailer')
+data.setCell(16, 2, 'test.RetailerTestCases')
+data.setCell(16, 3, 863);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testGetSchedule')
+data.setCell(17, 2, 'test.ScheduleTestCases')
+data.setCell(17, 3, 844);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testCreateCategory')
+data.setCell(18, 2, 'test.CategoryTestCases')
+data.setCell(18, 3, 844);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testCreateParticipant')
+data.setCell(19, 2, 'test.ParticipantTestCases')
+data.setCell(19, 3, 829);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testListNotices')
+data.setCell(20, 2, 'test.NoticeTestCases')
+data.setCell(20, 3, 795);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testCreateService')
+data.setCell(21, 2, 'test.CentreDirectoryServiceTestCases')
+data.setCell(21, 3, 768);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testPatchCategory')
+data.setCell(22, 2, 'test.CategoryTestCases')
+data.setCell(22, 3, 760);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testUpdateDeal')
+data.setCell(23, 2, 'test.DealTestCases')
+data.setCell(23, 3, 743);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testListRetailers')
+data.setCell(24, 2, 'test.RetailerTestCases')
+data.setCell(24, 3, 730);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testListServicesTypes')
+data.setCell(25, 2, 'test.CentreDirectoryServiceTypeTestCases')
+data.setCell(25, 3, 728);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testGetService')
+data.setCell(26, 2, 'test.CentreDirectoryServiceTestCases')
+data.setCell(26, 3, 714);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testCreateEvent')
+data.setCell(27, 2, 'test.EventTestCases')
+data.setCell(27, 3, 710);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testUpdateNotice')
+data.setCell(28, 2, 'test.NoticeTestCases')
+data.setCell(28, 3, 703);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testUpdateService')
+data.setCell(29, 2, 'test.CentreDirectoryServiceTestCases')
+data.setCell(29, 3, 700);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testDeletecategory')
+data.setCell(30, 2, 'test.CategoryTestCases')
+data.setCell(30, 3, 698);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testUpdateEvent')
+data.setCell(31, 2, 'test.EventTestCases')
+data.setCell(31, 3, 693);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testGetCategory')
+data.setCell(32, 2, 'test.CategoryTestCases')
+data.setCell(32, 3, 686);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testCreateSchedule')
+data.setCell(33, 2, 'test.ScheduleTestCases')
+data.setCell(33, 3, 685);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testDeleteNotice')
+data.setCell(34, 2, 'test.NoticeTestCases')
+data.setCell(34, 3, 684);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testDeleteSchedule')
+data.setCell(35, 2, 'test.ScheduleTestCases')
+data.setCell(35, 3, 683);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testDeleteDeal')
+data.setCell(36, 2, 'test.DealTestCases')
+data.setCell(36, 3, 680);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testGetParticipant')
+data.setCell(37, 2, 'test.ParticipantTestCases')
+data.setCell(37, 3, 673);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testCreateStore')
+data.setCell(38, 2, 'test.StoreTestCases')
+data.setCell(38, 3, 672);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testListEvents')
+data.setCell(39, 2, 'test.EventTestCases')
+data.setCell(39, 3, 672);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testCreateServiceType')
+data.setCell(40, 2, 'test.CentreDirectoryServiceTypeTestCases')
+data.setCell(40, 3, 668);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testUpdateServiceType')
+data.setCell(41, 2, 'test.CentreDirectoryServiceTypeTestCases')
+data.setCell(41, 3, 655);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testGetDeal')
+data.setCell(42, 2, 'test.DealTestCases')
+data.setCell(42, 3, 655);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testGetNotice')
+data.setCell(43, 2, 'test.NoticeTestCases')
+data.setCell(43, 3, 651);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testListCategories')
+data.setCell(44, 2, 'test.CategoryTestCases')
+data.setCell(44, 3, 644);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testGetServiceType')
+data.setCell(45, 2, 'test.CentreDirectoryServiceTypeTestCases')
+data.setCell(45, 3, 620);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testGetStore')
+data.setCell(46, 2, 'test.StoreTestCases')
+data.setCell(46, 3, 620);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testListEvents')
+data.setCell(47, 2, 'test.EventTestCases')
+data.setCell(47, 3, 611);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testUpdateSchedule')
+data.setCell(48, 2, 'test.ScheduleTestCases')
+data.setCell(48, 3, 609);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testListEvents')
+data.setCell(49, 2, 'test.EventTestCases')
+data.setCell(49, 3, 604);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testDeleteEvent')
+data.setCell(50, 2, 'test.EventTestCases')
+data.setCell(50, 3, 584);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testDeleteService')
+data.setCell(51, 2, 'test.CentreDirectoryServiceTestCases')
+data.setCell(51, 3, 581);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testGetEvent')
+data.setCell(52, 2, 'test.EventTestCases')
+data.setCell(52, 3, 580);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testDeleteServiceType')
+data.setCell(53, 2, 'test.CentreDirectoryServiceTypeTestCases')
+data.setCell(53, 3, 558);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testListEvents')
+data.setCell(54, 2, 'test.EventTestCases')
+data.setCell(54, 3, 529);
+window.suiteTableData['LUX_APIs']= { tableData: data, tableDiv: 'times-div-LUX_APIs'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
+              <div id="times-div-LUX_APIs">
+              </div> <!-- times-div-LUX_APIs -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LUX_APIs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LUX APIs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LUX_APIs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LUX_APIs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TokenGenerator</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getToken</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CentreTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupData</span>
+                <span class="method-start">3580 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPostCentre</span>
+                <span class="method-start">3813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPatchCentre</span>
+                <span class="method-start">5671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetCentre</span>
+                <span class="method-start">6645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testListCentres</span>
+                <span class="method-start">7887 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CategoryTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateCategory</span>
+                <span class="method-start">9070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPatchCategory</span>
+                <span class="method-start">9915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetCategory</span>
+                <span class="method-start">10676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testListCategories</span>
+                <span class="method-start">11363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeletecategory</span>
+                <span class="method-start">12008 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.RetailerTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">dataSetup</span>
+                <span class="method-start">12706 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateRetailer</span>
+                <span class="method-start">12737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateRetailer</span>
+                <span class="method-start">13618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRetailer</span>
+                <span class="method-start">14482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testListRetailers</span>
+                <span class="method-start">15530 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.StoreTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">dataSetup</span>
+                <span class="method-start">16261 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateStore</span>
+                <span class="method-start">16274 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateStore</span>
+                <span class="method-start">16947 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetStore</span>
+                <span class="method-start">18108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testListStores</span>
+                <span class="method-start">18729 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.NoticeTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">dataSetup</span>
+                <span class="method-start">19767 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateNotice</span>
+                <span class="method-start">19784 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateNotice</span>
+                <span class="method-start">20789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetNotice</span>
+                <span class="method-start">21492 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testListNotices</span>
+                <span class="method-start">22144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteNotice</span>
+                <span class="method-start">22940 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CentreDirectoryServiceTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">dataSetup</span>
+                <span class="method-start">23625 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateService</span>
+                <span class="method-start">23650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateService</span>
+                <span class="method-start">24418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetService</span>
+                <span class="method-start">25119 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testListServices</span>
+                <span class="method-start">25834 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteService</span>
+                <span class="method-start">26845 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CentreDirectoryServiceTypeTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">dataSetup</span>
+                <span class="method-start">27426 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateServiceType</span>
+                <span class="method-start">27443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateServiceType</span>
+                <span class="method-start">28112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetServiceType</span>
+                <span class="method-start">28768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testListServicesTypes</span>
+                <span class="method-start">29388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteServiceType</span>
+                <span class="method-start">30116 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.DealTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateDeal</span>
+                <span class="method-start">30674 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateDeal</span>
+                <span class="method-start">31569 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetDeal</span>
+                <span class="method-start">32313 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testListDeals</span>
+                <span class="method-start">32969 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteDeal</span>
+                <span class="method-start">34434 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ScheduleTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">dataSetup</span>
+                <span class="method-start">35114 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateSchedule</span>
+                <span class="method-start">35117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateSchedule</span>
+                <span class="method-start">35803 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSchedule</span>
+                <span class="method-start">36413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testListSchedules</span>
+                <span class="method-start">37258 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteSchedule</span>
+                <span class="method-start">40562 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ParticipantTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">dataSetup</span>
+                <span class="method-start">41245 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCreateParticipant</span>
+                <span class="method-start">41247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetParticipant</span>
+                <span class="method-start">42077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testListParticipants</span>
+                <span class="method-start">42751 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteParticipant</span>
+                <span class="method-start">45977 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.EventTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateEvent</span>
+                <span class="method-start">46900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateEvent</span>
+                <span class="method-start">47610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetEvent</span>
+                <span class="method-start">48303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testListEvents</span>
+                <span class="method-start">48883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testListEvents</span>
+                <span class="method-start">49556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testListEvents</span>
+                <span class="method-start">50167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testListEvents</span>
+                <span class="method-start">50696 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteEvent</span>
+                <span class="method-start">51304 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="3" total="58" passed="51" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-20T11:23:13 IST" name="LUX APIs" finished-at="2023-11-20T11:24:05 IST" duration-ms="51926">
+    <groups>
+    </groups>
+    <test started-at="2023-11-20T11:23:13 IST" name="Regression" finished-at="2023-11-20T11:24:05 IST" duration-ms="51926">
+      <class name="test.ParticipantTestCases">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.ParticipantTestCases@258e2e41]" started-at="2023-11-20T11:23:54 IST" name="dataSetup" finished-at="2023-11-20T11:23:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method signature="testCreateParticipant()[pri:1, instance:test.ParticipantTestCases@258e2e41]" started-at="2023-11-20T11:23:54 IST" name="testCreateParticipant" finished-at="2023-11-20T11:23:55 IST" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateParticipant -->
+        <test-method signature="testGetParticipant()[pri:3, instance:test.ParticipantTestCases@258e2e41]" started-at="2023-11-20T11:23:55 IST" name="testGetParticipant" finished-at="2023-11-20T11:23:56 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetParticipant -->
+        <test-method signature="testListParticipants()[pri:4, instance:test.ParticipantTestCases@258e2e41]" started-at="2023-11-20T11:23:56 IST" name="testListParticipants" finished-at="2023-11-20T11:23:59 IST" duration-ms="3226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListParticipants -->
+        <test-method signature="testDeleteParticipant()[pri:5, instance:test.ParticipantTestCases@258e2e41]" started-at="2023-11-20T11:23:59 IST" name="testDeleteParticipant" finished-at="2023-11-20T11:24:00 IST" duration-ms="922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteParticipant -->
+      </class> <!-- test.ParticipantTestCases -->
+      <class name="test.StoreTestCases">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.StoreTestCases@1a84f40f]" started-at="2023-11-20T11:23:29 IST" name="dataSetup" finished-at="2023-11-20T11:23:29 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method signature="testCreateStore()[pri:1, instance:test.StoreTestCases@1a84f40f]" started-at="2023-11-20T11:23:29 IST" name="testCreateStore" finished-at="2023-11-20T11:23:30 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStore -->
+        <test-method signature="testUpdateStore()[pri:2, instance:test.StoreTestCases@1a84f40f]" started-at="2023-11-20T11:23:30 IST" name="testUpdateStore" finished-at="2023-11-20T11:23:31 IST" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateStore -->
+        <test-method signature="testGetStore()[pri:3, instance:test.StoreTestCases@1a84f40f]" started-at="2023-11-20T11:23:31 IST" name="testGetStore" finished-at="2023-11-20T11:23:32 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStore -->
+        <test-method signature="testListStores()[pri:4, instance:test.StoreTestCases@1a84f40f]" started-at="2023-11-20T11:23:32 IST" name="testListStores" finished-at="2023-11-20T11:23:33 IST" duration-ms="1037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListStores -->
+      </class> <!-- test.StoreTestCases -->
+      <class name="test.DealTestCases">
+        <test-method signature="testCreateDeal()[pri:1, instance:test.DealTestCases@3b2da18f]" started-at="2023-11-20T11:23:44 IST" name="testCreateDeal" finished-at="2023-11-20T11:23:45 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateDeal -->
+        <test-method signature="testUpdateDeal()[pri:2, instance:test.DealTestCases@3b2da18f]" started-at="2023-11-20T11:23:45 IST" name="testUpdateDeal" finished-at="2023-11-20T11:23:46 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateDeal -->
+        <test-method signature="testGetDeal()[pri:3, instance:test.DealTestCases@3b2da18f]" started-at="2023-11-20T11:23:46 IST" name="testGetDeal" finished-at="2023-11-20T11:23:46 IST" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDeal -->
+        <test-method signature="testListDeals()[pri:4, instance:test.DealTestCases@3b2da18f]" started-at="2023-11-20T11:23:46 IST" name="testListDeals" finished-at="2023-11-20T11:23:48 IST" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListDeals -->
+        <test-method signature="testDeleteDeal()[pri:5, instance:test.DealTestCases@3b2da18f]" started-at="2023-11-20T11:23:48 IST" name="testDeleteDeal" finished-at="2023-11-20T11:23:48 IST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteDeal -->
+      </class> <!-- test.DealTestCases -->
+      <class name="test.RetailerTestCases">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.RetailerTestCases@4b168fa9]" started-at="2023-11-20T11:23:26 IST" name="dataSetup" finished-at="2023-11-20T11:23:26 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method signature="testCreateRetailer()[pri:1, instance:test.RetailerTestCases@4b168fa9]" started-at="2023-11-20T11:23:26 IST" name="testCreateRetailer" finished-at="2023-11-20T11:23:27 IST" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateRetailer -->
+        <test-method signature="testUpdateRetailer()[pri:2, instance:test.RetailerTestCases@4b168fa9]" started-at="2023-11-20T11:23:27 IST" name="testUpdateRetailer" finished-at="2023-11-20T11:23:28 IST" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateRetailer -->
+        <test-method signature="testGetRetailer()[pri:3, instance:test.RetailerTestCases@4b168fa9]" started-at="2023-11-20T11:23:28 IST" name="testGetRetailer" finished-at="2023-11-20T11:23:29 IST" duration-ms="1047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRetailer -->
+        <test-method signature="testListRetailers()[pri:4, instance:test.RetailerTestCases@4b168fa9]" started-at="2023-11-20T11:23:29 IST" name="testListRetailers" finished-at="2023-11-20T11:23:29 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListRetailers -->
+      </class> <!-- test.RetailerTestCases -->
+      <class name="test.TokenGenerator">
+        <test-method signature="getToken()[pri:0, instance:test.TokenGenerator@589b3632]" started-at="2023-11-20T11:23:13 IST" name="getToken" finished-at="2023-11-20T11:23:17 IST" duration-ms="3577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+      </class> <!-- test.TokenGenerator -->
+      <class name="test.ScheduleTestCases">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.ScheduleTestCases@5906ebcb]" started-at="2023-11-20T11:23:48 IST" name="dataSetup" finished-at="2023-11-20T11:23:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method signature="testCreateSchedule()[pri:1, instance:test.ScheduleTestCases@5906ebcb]" started-at="2023-11-20T11:23:48 IST" name="testCreateSchedule" finished-at="2023-11-20T11:23:49 IST" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSchedule -->
+        <test-method signature="testUpdateSchedule()[pri:2, instance:test.ScheduleTestCases@5906ebcb]" started-at="2023-11-20T11:23:49 IST" name="testUpdateSchedule" finished-at="2023-11-20T11:23:50 IST" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateSchedule -->
+        <test-method signature="testGetSchedule()[pri:3, instance:test.ScheduleTestCases@5906ebcb]" started-at="2023-11-20T11:23:50 IST" name="testGetSchedule" finished-at="2023-11-20T11:23:50 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSchedule -->
+        <test-method signature="testListSchedules()[pri:4, instance:test.ScheduleTestCases@5906ebcb]" started-at="2023-11-20T11:23:50 IST" name="testListSchedules" finished-at="2023-11-20T11:23:54 IST" duration-ms="3303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListSchedules -->
+        <test-method signature="testDeleteSchedule()[pri:5, instance:test.ScheduleTestCases@5906ebcb]" started-at="2023-11-20T11:23:54 IST" name="testDeleteSchedule" finished-at="2023-11-20T11:23:54 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteSchedule -->
+      </class> <!-- test.ScheduleTestCases -->
+      <class name="test.CentreDirectoryServiceTestCases">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.CentreDirectoryServiceTestCases@7920ba90]" started-at="2023-11-20T11:23:37 IST" name="dataSetup" finished-at="2023-11-20T11:23:37 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method signature="testCreateService()[pri:1, instance:test.CentreDirectoryServiceTestCases@7920ba90]" started-at="2023-11-20T11:23:37 IST" name="testCreateService" finished-at="2023-11-20T11:23:38 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateService -->
+        <test-method signature="testUpdateService()[pri:2, instance:test.CentreDirectoryServiceTestCases@7920ba90]" started-at="2023-11-20T11:23:38 IST" name="testUpdateService" finished-at="2023-11-20T11:23:38 IST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateService -->
+        <test-method signature="testGetService()[pri:3, instance:test.CentreDirectoryServiceTestCases@7920ba90]" started-at="2023-11-20T11:23:38 IST" name="testGetService" finished-at="2023-11-20T11:23:39 IST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetService -->
+        <test-method signature="testListServices()[pri:4, instance:test.CentreDirectoryServiceTestCases@7920ba90]" started-at="2023-11-20T11:23:39 IST" name="testListServices" finished-at="2023-11-20T11:23:40 IST" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListServices -->
+        <test-method signature="testDeleteService()[pri:5, instance:test.CentreDirectoryServiceTestCases@7920ba90]" started-at="2023-11-20T11:23:40 IST" name="testDeleteService" finished-at="2023-11-20T11:23:41 IST" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteService -->
+      </class> <!-- test.CentreDirectoryServiceTestCases -->
+      <class name="test.NoticeTestCases">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.NoticeTestCases@23282c25]" started-at="2023-11-20T11:23:33 IST" name="dataSetup" finished-at="2023-11-20T11:23:33 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method signature="testCreateNotice()[pri:1, instance:test.NoticeTestCases@23282c25]" started-at="2023-11-20T11:23:33 IST" name="testCreateNotice" finished-at="2023-11-20T11:23:34 IST" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNotice -->
+        <test-method signature="testUpdateNotice()[pri:2, instance:test.NoticeTestCases@23282c25]" started-at="2023-11-20T11:23:34 IST" name="testUpdateNotice" finished-at="2023-11-20T11:23:35 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateNotice -->
+        <test-method signature="testGetNotice()[pri:3, instance:test.NoticeTestCases@23282c25]" started-at="2023-11-20T11:23:35 IST" name="testGetNotice" finished-at="2023-11-20T11:23:35 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNotice -->
+        <test-method signature="testListNotices()[pri:4, instance:test.NoticeTestCases@23282c25]" started-at="2023-11-20T11:23:35 IST" name="testListNotices" finished-at="2023-11-20T11:23:36 IST" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListNotices -->
+        <test-method signature="testDeleteNotice()[pri:5, instance:test.NoticeTestCases@23282c25]" started-at="2023-11-20T11:23:36 IST" name="testDeleteNotice" finished-at="2023-11-20T11:23:37 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteNotice -->
+      </class> <!-- test.NoticeTestCases -->
+      <class name="test.CentreDirectoryServiceTypeTestCases">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:test.CentreDirectoryServiceTypeTestCases@6b419da]" started-at="2023-11-20T11:23:41 IST" name="dataSetup" finished-at="2023-11-20T11:23:41 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method signature="testCreateServiceType()[pri:1, instance:test.CentreDirectoryServiceTypeTestCases@6b419da]" started-at="2023-11-20T11:23:41 IST" name="testCreateServiceType" finished-at="2023-11-20T11:23:41 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateServiceType -->
+        <test-method signature="testUpdateServiceType()[pri:2, instance:test.CentreDirectoryServiceTypeTestCases@6b419da]" started-at="2023-11-20T11:23:41 IST" name="testUpdateServiceType" finished-at="2023-11-20T11:23:42 IST" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateServiceType -->
+        <test-method signature="testGetServiceType()[pri:3, instance:test.CentreDirectoryServiceTypeTestCases@6b419da]" started-at="2023-11-20T11:23:42 IST" name="testGetServiceType" finished-at="2023-11-20T11:23:43 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetServiceType -->
+        <test-method signature="testListServicesTypes()[pri:4, instance:test.CentreDirectoryServiceTypeTestCases@6b419da]" started-at="2023-11-20T11:23:43 IST" name="testListServicesTypes" finished-at="2023-11-20T11:23:43 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListServicesTypes -->
+        <test-method signature="testDeleteServiceType()[pri:5, instance:test.CentreDirectoryServiceTypeTestCases@6b419da]" started-at="2023-11-20T11:23:43 IST" name="testDeleteServiceType" finished-at="2023-11-20T11:23:44 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteServiceType -->
+      </class> <!-- test.CentreDirectoryServiceTypeTestCases -->
+      <class name="test.CentreTestCases">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:test.CentreTestCases@3ee0fea4]" started-at="2023-11-20T11:23:17 IST" name="setupData" finished-at="2023-11-20T11:23:17 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testPostCentre()[pri:1, instance:test.CentreTestCases@3ee0fea4]" started-at="2023-11-20T11:23:17 IST" name="testPostCentre" finished-at="2023-11-20T11:23:19 IST" duration-ms="1857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostCentre -->
+        <test-method signature="testPatchCentre()[pri:2, instance:test.CentreTestCases@3ee0fea4]" started-at="2023-11-20T11:23:19 IST" name="testPatchCentre" finished-at="2023-11-20T11:23:20 IST" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatchCentre -->
+        <test-method signature="testGetCentre()[pri:3, instance:test.CentreTestCases@3ee0fea4]" started-at="2023-11-20T11:23:20 IST" name="testGetCentre" finished-at="2023-11-20T11:23:21 IST" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCentre -->
+        <test-method signature="testListCentres()[pri:4, instance:test.CentreTestCases@3ee0fea4]" started-at="2023-11-20T11:23:21 IST" name="testListCentres" finished-at="2023-11-20T11:23:22 IST" duration-ms="1182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListCentres -->
+      </class> <!-- test.CentreTestCases -->
+      <class name="test.CategoryTestCases">
+        <test-method signature="testCreateCategory()[pri:1, instance:test.CategoryTestCases@48524010]" started-at="2023-11-20T11:23:22 IST" name="testCreateCategory" finished-at="2023-11-20T11:23:23 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateCategory -->
+        <test-method signature="testPatchCategory()[pri:2, instance:test.CategoryTestCases@48524010]" started-at="2023-11-20T11:23:23 IST" name="testPatchCategory" finished-at="2023-11-20T11:23:24 IST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatchCategory -->
+        <test-method signature="testGetCategory()[pri:3, instance:test.CategoryTestCases@48524010]" started-at="2023-11-20T11:23:24 IST" name="testGetCategory" finished-at="2023-11-20T11:23:25 IST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCategory -->
+        <test-method signature="testListCategories()[pri:4, instance:test.CategoryTestCases@48524010]" started-at="2023-11-20T11:23:25 IST" name="testListCategories" finished-at="2023-11-20T11:23:25 IST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListCategories -->
+        <test-method signature="testDeletecategory()[pri:5, instance:test.CategoryTestCases@48524010]" started-at="2023-11-20T11:23:25 IST" name="testDeletecategory" finished-at="2023-11-20T11:23:26 IST" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletecategory -->
+      </class> <!-- test.CategoryTestCases -->
+      <class name="test.EventTestCases">
+        <test-method signature="testCreateEvent()[pri:1, instance:test.EventTestCases@3d299e3]" started-at="2023-11-20T11:24:00 IST" name="testCreateEvent" finished-at="2023-11-20T11:24:01 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateEvent -->
+        <test-method signature="testUpdateEvent()[pri:2, instance:test.EventTestCases@3d299e3]" started-at="2023-11-20T11:24:01 IST" name="testUpdateEvent" finished-at="2023-11-20T11:24:02 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateEvent -->
+        <test-method signature="testGetEvent()[pri:3, instance:test.EventTestCases@3d299e3]" started-at="2023-11-20T11:24:02 IST" name="testGetEvent" finished-at="2023-11-20T11:24:02 IST" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEvent -->
+        <test-method retried="true" signature="testListEvents()[pri:4, instance:test.EventTestCases@3d299e3]" started-at="2023-11-20T11:24:02 IST" name="testListEvents" finished-at="2023-11-20T11:24:03 IST" duration-ms="672" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.containsKey(Object)" because the return value of "io.restassured.path.json.JsonPath.getMap(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.containsKey(Object)" because the return value of "io.restassured.path.json.JsonPath.getMap(String)" is null
+at test.EventTestCases.testListEvents(EventTestCases.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListEvents -->
+        <test-method retried="true" signature="testListEvents()[pri:4, instance:test.EventTestCases@3d299e3]" started-at="2023-11-20T11:24:03 IST" name="testListEvents" finished-at="2023-11-20T11:24:03 IST" duration-ms="611" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.containsKey(Object)" because the return value of "io.restassured.path.json.JsonPath.getMap(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.containsKey(Object)" because the return value of "io.restassured.path.json.JsonPath.getMap(String)" is null
+at test.EventTestCases.testListEvents(EventTestCases.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListEvents -->
+        <test-method retried="true" signature="testListEvents()[pri:4, instance:test.EventTestCases@3d299e3]" started-at="2023-11-20T11:24:03 IST" name="testListEvents" finished-at="2023-11-20T11:24:04 IST" duration-ms="529" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.containsKey(Object)" because the return value of "io.restassured.path.json.JsonPath.getMap(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.containsKey(Object)" because the return value of "io.restassured.path.json.JsonPath.getMap(String)" is null
+at test.EventTestCases.testListEvents(EventTestCases.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListEvents -->
+        <test-method signature="testListEvents()[pri:4, instance:test.EventTestCases@3d299e3]" started-at="2023-11-20T11:24:04 IST" name="testListEvents" finished-at="2023-11-20T11:24:05 IST" duration-ms="604" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.util.Map.containsKey(Object)" because the return value of "io.restassured.path.json.JsonPath.getMap(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.util.Map.containsKey(Object)" because the return value of "io.restassured.path.json.JsonPath.getMap(String)" is null
+at test.EventTestCases.testListEvents(EventTestCases.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListEvents -->
+        <test-method signature="testDeleteEvent()[pri:5, instance:test.EventTestCases@3d299e3]" started-at="2023-11-20T11:24:05 IST" name="testDeleteEvent" finished-at="2023-11-20T11:24:05 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteEvent -->
+      </class> <!-- test.EventTestCases -->
+    </test> <!-- Regression -->
+  </suite> <!-- LUX APIs -->
+</testng-results>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LUX APIs">
+    <!--<parameter name="platform" value="Android"></parameter>-->
+    <listeners>
+        <!--<listener class-name="api.utilities.ExtentReport"></listener>-->
+        <!--<listener class-name="api.utilities.RetryAnalyzer"></listener>-->
+    </listeners>
+    <test name="Regression">
+
+        <classes>
+            <class name="test.TokenGenerator"></class>
+            <class name="test.CentreTestCases"></class>
+            <class name="test.CategoryTestCases"></class>
+            <class name="test.RetailerTestCases"></class>
+            <class name="test.StoreTestCases"></class>
+            <class name="test.NoticeTestCases"></class>
+            <class name="test.CentreDirectoryServiceTestCases"></class>
+            <class name="test.CentreDirectoryServiceTypeTestCases"></class>
+            <class name="test.DealTestCases"></class>
+            <class name="test.ScheduleTestCases"></class>
+            <class name="test.ParticipantTestCases"></class>
+            <class name="test.EventTestCases"></class>
+        </classes>
+    </test>
+</suite>
